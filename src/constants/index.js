@@ -15,13 +15,13 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  fso,
+  lacite,
+  atc,
+  cisco,
+  rdvapp,
+  mw,
+  fc,
   threejs,
 } from "../assets";
 
@@ -118,7 +118,7 @@ const experiences = [
   {
     title: "Full-Stack developer",
     company_name: "La Cite College - Ottawa - Canada",
-    icon: starbucks,
+    icon: lacite,
     iconBg: "#383E56",
     date: "Septembre 2021 - April 2023",
     points: [
@@ -131,7 +131,7 @@ const experiences = [
   {
     title: "Android Application Development",
     company_name: "TATC (Advanced Training Consultants)",
-    icon: tesla,
+    icon: atc,
     iconBg: "#E6DEDD",
     date: "May.30. 2022 ",
     points: [
@@ -141,7 +141,7 @@ const experiences = [
   {
     title: "CCNA (Cisco Certified Network Associate)",
     company_name: "Cisco Systems, Inc",
-    icon: shopify,
+    icon: cisco,
     iconBg: "#383E56",
     date: "January.09. 2022",
     points: [
@@ -151,7 +151,7 @@ const experiences = [
   {
     title: "Physics/Maths",
     company_name: "Mohammed First - Oujda - Morocco",
-    icon: meta,
+    icon: fso,
     iconBg: "#E6DEDD",
     date: "Juin 2014 - Septembre 2019",
     points: [
@@ -197,19 +197,19 @@ const projects = [
       "An appointment scheduling desktop application designed to streamline the booking and management process for various businesses and professionals. This application enables users to easily create, update, and cancel appointments while providing a clear overview of their schedules. Using C# and SQL Server, I created a robust backend to support efficient data storage and retrieval for a seamless user experience.",
     tags: [
       {
-        name: "react",
+        name: "C#,",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "SQL Server",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: ".NET Framework",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: rdvapp,
     source_code_link: "https://github.com/marouaneAbdeL/RDVapp",
   },
   {
@@ -218,19 +218,19 @@ const projects = [
       "A web project to promote tourism in Morocco. This website enables users to easily discover relevant tourist activities in different regions of Morocco and select a hotel based on their preferences.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Text API ",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: mw,
     source_code_link: "https://github.com/",
   },
   {
@@ -251,7 +251,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: fc,
     source_code_link: "https://github.com/",
   },
 ];
